@@ -1,3 +1,244 @@
+<!DOCTYPE html>
+
 <html>
-   Dhandhanggula
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <title>Dhandhanggula Network</title>
+        <link rel="icon" href="./assets/img/logo.png">
+        <meta content="Official Website of Dhandhanggula Network - an open source organization for IoT network and security" name="description">
+        <meta content="dhandhanggula, network, iot, security, lora, arduino, raspberry" name="keywords">
+
+        <!-- CSS -->
+        <link href="./assets/css/main.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- Boxicon -->
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light p-1 fixed-top primebackground">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#home" >
+                    <div class="row">
+                        <div class="col" style="text-align:center">
+                            <img src="./assets/img/logo.png" alt="" width="auto" height="50" class="d-inline-block align-text-top">
+                        </div>
+                    </div>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end navbar-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home" style="color:#a0a0a0"><Strong>Home</Strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hardware" style="color:#a0a0a0"><Strong>Hardware</Strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#software" style="color:#a0a0a0"><Strong>Software</Strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#documentation" style="color:#a0a0a0"><Strong>Documentation</Strong></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- intro -->
+        <section id="home" class="d-flex flex-column justify-content-center" style="padding-bottom:0px; padding-top:0px">
+            <div class="container" style="margin-left:15%; margin-right:15%; width:70%;">
+                <div class="row" style="margin-bottom:20px">
+                    <div class="col position-relative" style="height:100vh;">
+                        <div class="card no-border position-absolute top-50 start-50 translate-middle" style="width:100%">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div>
+                                        <h1>
+                                            <span class="text-prime">Open Source </span>
+                                            <span>LoRa Mesh Network for </span>
+                                            <span class="text-prime">Community</span>
+                                        </h1>
+                                    </div>
+                                    <h4 style="padding-top:30px">
+                                        Dhandhanggula network is an open source long range (LoRa) mesh network with secure connection.
+                                        We provide an easy to use connection between new node and existing mesh network.
+                                    </h4>
+                                </div>
+                                <div class="row" style="padding-bottom:30px; padding-top:30px">
+                                    <div class="col" style="text-align:center">
+                                        <a class="btn btn-danger prime-btn" href="#product" role="button">Get Started</a>
+                                        <a class="btn btn-danger secondary-btn" href="#documentation" role="button" style="margin-left:20px;">Documentation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product -->
+        <section id="product" class="secondarybackground">
+            <div class="container">
+                <div class="row" style="padding-bottom:50px; padding-top:20px">
+                    <div class="col">
+                        <h2 style="text-align:center"><b>PRODUCT</b></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col" style="text-align:center">
+                        <div class="row row-cols-1 row-cols-md-3 g-4" align="center" style="padding-left:100px; padding-right:100px">
+                            <div class="col">
+                                <div class="card h-100 product-box" style="text-align:left">
+                                    <img src="./assets/img/logo.png" style="height:100px; width:100%; object-fit:contain; text-align:center; margin-top:50px">
+                                    <a href="#dhandhanggula_node" target="_blank" style="text-decoration:none; color:#000000">
+                                    <div class="card-body" style="padding-top:50px; padding-bottom:50px;">
+
+                                        <p class="card-title" style="font-size:16px"><Strong>Dhandhanggula Node</Strong></p>
+                                        <p style="font-size:12px">Node module to send sensor's data and message repeater. Implemented in Arduino and Python.</p>
+                                        
+                                        <br>
+                                        <a class="btn btn-danger secondary-btn" href="#dhandhanggula_node" role="button">Start</a>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 product-box" style="text-align:left">
+                                    <img src="./assets/img/logo.png" style="height:100px; width:100%; object-fit:contain; text-align:center; margin-top:50px">
+                                    <a href="#dhandhanggula_gateway" target="_blank" style="text-decoration:none; color:#000000">
+                                    <div class="card-body" style="padding-top:50px; padding-bottom:50px;">
+                                        <p class="card-title" style="font-size:16px"><Strong>Dhandhanggula Gateway</Strong></p>
+                                        <p style="font-size:12px">Receive sensor's data and send to your cloud storage written in Python.</p>
+                                        <br>
+                                        <a class="btn btn-danger secondary-btn" href="#dhandhanggula_gateway" role="button">Start</a>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 product-box" style="text-align:left">
+                                    <img src="./assets/img/logo.png" style="height:100px; width:100%; object-fit:contain; text-align:center; margin-top:50px">
+                                    <a href="#dhandhanggula_unique" target="_blank" style="text-decoration:none; color:#000000">
+                                    <div class="card-body" style="padding-top:50px; padding-bottom:50px;">
+                                        <p class="card-title" style="font-size:16px"><Strong>Dhandhanggula Unique</Strong></p>
+                                        <p style="font-size:12px">Unique serial character for both node and gateway as communication address.</p>
+                                        <br>
+                                        <a class="btn btn-danger secondary-btn" href="#dhandhanggula_unique" role="button">Start</a>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="d-flex flex-column justify-content-center">
+            <div class="container" style="">
+
+                <div class="row" style="padding-bottom:50px;">
+                    <div class="col">
+                        <div class="card no-border">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                    <h3><b>A robust network platform for covering high density area</b></h3>
+                                    <br>
+                                    <p>
+                                        Long range (LoRa) is an wireless RF technology which has an ability for sending amount of data in long communication range. 
+                                        Dhandhanggula network have enhanced LoRa ability to keep going well in high density area. 
+                                    </p>
+                                    </div>
+                                    <div class="col-lg-7" style="text-align:center">
+                                        <img src="./assets/img/01.jpg" style="height:400px; width:100%; object-fit:contain; text-align:center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="row" style="padding-bottom:50px">
+                    <div class="col">
+                        <div class="card no-border">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-7" style="text-align:center">
+                                        <img src="./assets/img/02.jpg" style="height:400px; width:100%; object-fit:contain; text-align:center">
+                                    </div>
+                                    <div class="col-lg-5">
+                                    <h3><b>Dhandhanggula network is an open network</b></h3>
+                                    <br>
+                                    <p>
+                                        New node can join easily to an existing dhandhanggula network in a area. 
+                                        With new node join, it increase the network coverage.
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="row" style="padding-bottom:50px">
+                    <div class="col">
+                        <div class="card no-border">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-5">
+                                    <h3><b>Security is number one</b></h3>
+                                    <br>
+                                    <p>
+                                        Dhandhanggula network using end-to-end encryption to make sure every data passing through the network is secure.
+                                        Your data is your treaseure.
+
+                                    </p>
+                                    </div>
+                                    <div class="col-lg-7" style="text-align:center">
+                                        <img src="./assets/img/03.jpg" style="height:400px; width:100%; object-fit:contain; text-align:center">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+        </section>
+
+
+
+        <!-- Footer -->
+        <section id="end-section" class="d-flex flex-column justify-content-center" style="padding-top: 20px; padding-bottom:10px; background:#141414">
+            <div class="container" style="align-center">
+                <div class="row" style="text-align:center;">
+                    <div class="col">
+                        <p class="text-white" style="font-size:10px"><Strong>Dhandhanggula Network @2022</Strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Javascript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+    </body>
 </html>

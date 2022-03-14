@@ -1,0 +1,144 @@
+/*BODY*/
+body 
+{
+    
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+}
+
+h1
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 52px !important;
+    font-weight: bold !important;
+    text-align: center;
+}
+
+h2
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 34px !important;
+    text-align: left;
+}
+
+h3
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 28px !important;
+    text-align: left;
+}
+
+h4
+{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px !important;
+    text-align: center;
+    color : #727686 !important;
+}
+
+p
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #3a3a3a;
+}
+
+caption 
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px !important;
+    color: #515052;
+}
+
+.primecolor
+{
+    color : #e51b23 !important;
+}
+
+.text-prime
+{
+    color : #e51b23 !important;
+}
+
+.text-white
+{
+    color : #ffffff !important;
+}
+
+.primebackground
+{
+    background-color:#ffffff;
+}
+
+.secondarybackground
+{
+    background-color: #f4f6f8;
+}
+
+.btn
+{
+    font-size: 14px;
+}
+
+.no-border{
+    border: none !important;
+}
+
+.prime-btn
+{
+    background-color:#e51b23 !important;
+    border-color: #e51b23 !important;
+    color : #ffffff !important;
+}
+
+.secondary-btn
+{
+    background-color:#ffffff !important;
+    border-color:#e51b23 !important;
+    color : #e51b23 !important;
+}
+
+
+
+/*NAVBAR*/
+.navbar-menu
+{
+    font-size:14px !important;
+}
+
+/*SECTION*/
+/*----------------------SECTION--------------------*/
+section 
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width:100%;
+}
+
+.section-isi 
+{
+    padding-left: 0px;
+    padding-bottom: 40px;
+}
+
+hr
+{
+    display:block;
+    border: 0px;
+    height: 2px !important;
+    width:25%;
+    position: relative;   
+    color: #2b4645;
+    background-color: #2b4645 !important; 
+    opacity: 0.8 !important;
+    margin-left:37.5% !important; 
+    margin-right:37.5% !important;
+}
+
+/*Product*/
+.product-box
+{
+    background-color: #ffffff;
+    border: none !important;
+    border-radius:10px !important;
+}
